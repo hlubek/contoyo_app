@@ -1,6 +1,10 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 
+Contoyo::Content.destroy_all
+Contoyo::Page.destroy_all
+Contoyo::Layout.destroy_all
+
 layout = Contoyo::Layout.create! :view => 'layouts/application', :container_list => 'sidebar'
 
 welcome_page = Contoyo::Page.create! :title => 'Welcome', :layout => layout
