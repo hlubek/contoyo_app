@@ -10,6 +10,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'contoyo', :path => '../contoyo'
 
 gem 'haml'
+gem 'compass'
 
 # Use unicorn as the web server
 # gem 'unicorn'

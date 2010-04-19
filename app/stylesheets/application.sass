@@ -1,0 +1,54 @@
+@import blueprint
+
+body.three-col
+  #sidebar-content
+    +column(6)
+    background: #777
+    color: #eee
+    -moz-border-radius: 6px
+    -webkit-border-radius: 6px
+    text-shadow: #444 1px 1px 0px
+    p
+      margin: 4px
+  #main-menu
+    +column(!blueprint_grid_columns)
+    margin-bottom: 8px
+    ul
+      list-style: none outside none
+      margin: 0
+      li
+        font-size: 14px
+        padding: 8px
+        display: block
+        float: left
+        position: relative
+        a
+          text-decoration: none
+      li.current, li.active
+        background: #333
+        -moz-border-radius: 0 0 4px 4px
+        a
+          color: #fff
+  #sub-menu
+    color: #777
+  #footer
+    background: #333
+    padding: 8px
+    margin-top: 24px
+    color: #fff
+    a
+      color: #fff
+    ul
+      list-style: none outside none
+      margin: 0
+      li
+        margin-right: 8px
+        display: block
+        float: left
+        position: relative
+        font-weight: bold
+        li
+          margin-right: none
+          float: none
+          font-weight: normal
+
