@@ -1,7 +1,7 @@
 h1. Installation
 
 * Run 'bundle install'
-* Run 'rake db:migrate'
-* Run 'rake contoyo:db:migrate'
+* Run 'rake contoyo:db:migrate' to run the migrations for contoyo
 * Run 'rake db:seed' to load example data
+* Start the rails server: 'rails server'
 * Browse to http://localhost:3000/welcome

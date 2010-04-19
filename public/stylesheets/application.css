@@ -1,0 +1,11 @@
+#content {
+  float: left;
+  width: 78%;
+  height: 1px;
+}
+#sidebar {
+  float: left;
+  border: 3px solid black;
+  width: 20%;
+  padding: 6px;
+}
