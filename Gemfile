@@ -11,7 +11,9 @@ gem 'contoyo', :path => '../contoyo'
 
 gem 'haml'
 gem 'compass'
-gem 'acts_as_list', :git => 'git://github.com/nono/acts_as_list.git', :branch => 'rails3'
+gem 'acts_as_list', :git => 'git://github.com/nono/acts_as_list.git', :branch => 'master'
+
+gem 'paperclip', :git => 'git://github.com/thoughtbot/paperclip.git', :branch => 'rails3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
